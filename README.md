@@ -1,11 +1,11 @@
-# usb-relay-hid (HW-552)
+# usb-relay-hid (HW-552) Delphi 
 ![](http://vusb.wdfiles.com/local--files/project:driver-less-usb-relays-hid-interface/relay8.jpg)
 
-GUI and command line applications to control an HW-554 USB relay card
+Delphi GUI and command line source and applications to control an HW-554 USB relay card
 
 The HW-554 relay card was purchased via eBay and came with no information or software, the suppliers were of little help.
-Some digging on the internet indicated that it used USB HID and I came across a repository (pavel-a/usb-relay-hid) on GitHub
-written in C++, this proved to be very useful source of information.
+Some digging on the internet indicated that it used USB HID.  pavel-a's repository (pavel-a/usb-relay-hid) on GitHub 
+proved to be very useful source of information.
 
 Getting Started
 + Download the projects into a suitable folder within your project structure.  Load the required project (e.g.relaycmd), 
