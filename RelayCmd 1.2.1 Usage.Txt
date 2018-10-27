@@ -1,0 +1,25 @@
+Use of the command line application RelayCmd.exe
+
+Usage:
+    
+    RelayCmd [ID=x] ON=n or OFF=n
+
+    ID=x Where x is the board occurance i.e. The order in which the board/s are found
+    If ID is not specified then the default will be 1
+    If no boards are present then an error will be issued
+    
+    On=n where n = the relay number (1-8).  Multiple relays may be operated by comma separating their numbers. 
+    Off=n where n = the relay number (1-8).  Multiple relays may be released by comma separating their numbers. 
+    Valid relay numbers are 1 - 8 dependant upon the model of the board.
+    
+Examples
+
+    RelayCmd ID=1 ON=1                          This Switches relay 1 on board 1 to ON
+    RelayCmd ON=1                               This Switches relay 1 on board 1 to ON
+    RelayCmd ID=2 ON=8                          This Switches relay 8 on board 2 to ON
+    RelayCmd ID=2 ON=1,3,5,7                    This Switches relays 1, 3, 5 & 7 on board 2 to ON
+    RelayCmd ID=1 OFF=1,3,5,7                   This Switches relays 1, 3, 5 & 7 on board 1 to OFF
+    RelayCmd OFF=1,3,5,7                        This Switches relays 1, 3, 5 & 7 on board 1 to OFF
+    RelayCmd ON=ALL                             This Switches all relays on board 1 to ON
+    RelayCmd ID=1 ON=ALL                        This Switches all relays on board 1 to ON
+    RelayCmd ID=2 OFF=ALL                       This Switches all relays on board 2 to OFF
