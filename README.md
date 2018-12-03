@@ -1,4 +1,4 @@
-# usb-relay-hid (HW-552) Delphi 
+# usb-relay-hid (HW-554) Delphi 
 ![](http://vusb.wdfiles.com/local--files/project:driver-less-usb-relays-hid-interface/relay8.jpg)
 
 Delphi GUI and command line source and applications to control an HW-554 USB relay card
